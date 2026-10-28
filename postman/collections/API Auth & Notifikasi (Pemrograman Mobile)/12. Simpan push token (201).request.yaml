@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{base_url}}/notifications/token"
+method: POST
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{token}}
+body:
+  type: text
+  content: |-
+    {
+      "expoPushToken": "ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]"
+    }
+order: 12000

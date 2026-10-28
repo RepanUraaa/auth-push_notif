@@ -1,0 +1,7 @@
+$kind: http-request
+name: 9. GET /auth/me token valid (200)
+url: "{{base_url}}/auth/me"
+method: GET
+headers:
+  Authorization: Bearer {{token}}
+order: 9000

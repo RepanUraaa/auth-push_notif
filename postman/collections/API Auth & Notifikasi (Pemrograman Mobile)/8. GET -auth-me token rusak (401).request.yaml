@@ -1,0 +1,7 @@
+$kind: http-request
+name: 8. GET /auth/me token rusak (401)
+url: "{{base_url}}/auth/me"
+method: GET
+headers:
+  Authorization: "{{bearer_token_0mx0}}"
+order: 8000

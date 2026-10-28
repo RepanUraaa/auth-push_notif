@@ -1,0 +1,11 @@
+# Use this workspace to collaborate
+workspace:
+  id: c090c271-2161-436b-95c2-29d3784b8f6c
+
+localResources:
+  collections:
+    - ../backend/postman_collection.json
+
+cloudResources:
+  collections:
+    ../postman/collections/API Auth & Notifikasi (Pemrograman Mobile): b10ff20e-cfba-4143-83c9-03a49401612b
